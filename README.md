@@ -205,7 +205,7 @@
 ## 💡 경량화 solution
 
 - "llama-3.2-3B-Instruct-GPTQmodel-4bit" + "Weight-Lightened Encoder" + "Prompt Engineering"
-- 4 bit로 양자화된 LLMr과 경량화된 버전의 Whisper, BEATs encoder를 사용함으로써 메모리를 줄이고 추론 속도를 향상
+- 4 bit로 양자화된 LLM과 경량화된 버전의 Whisper, BEATs encoder를 사용함으로써 메모리를 줄이고 추론 속도를 향상
 - Prompt Engieering과 Instruction tuning을 통해 ASR, AAC task의 성능 향상
 - 결과
 
