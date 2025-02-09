@@ -7,42 +7,42 @@
   <tr>
     <td align="center">
       <a href="https://github.com/kupulau">
-        <img src="https://aistages-api-public-prod.s3.amazonaws.com/app/Users/00003808/user_image.png" width="120px" height="120px" alt=""/>
+        <img src="https://github.com/user-attachments/assets/d78bb2d1-6469-43e4-9665-eca058f1a2e5" width="120px" height="120px" alt=""/>
         <hr />
         <sub><b>황지은</b></sub><br />
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/asotea">
-        <img src="https://aistages-api-public-prod.s3.amazonaws.com/app/Users/00003808/user_image.png" width="120px" height="120px" alt=""/>
+        <img src="https://github.com/user-attachments/assets/a15d120c-f086-4f3c-8902-25dd260675ba" width="120px" height="120px" alt=""/>
         <hr />
         <sub><b>김태균</b></sub><br />
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/mujjinungae">
-        <img src="https://aistages-api-public-prod.s3.amazonaws.com/app/Users/00003808/user_image.png" width="120px" height="120px" alt=""/>
+        <img src="https://github.com/user-attachments/assets/9098f35a-2002-4f6c-ba66-e3a94310a9f5" width="120px" height="120px" alt=""/>
         <hr />
         <sub><b>이진우</b></sub><br />
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/glasshong">
-        <img src="https://aistages-api-public-prod.s3.amazonaws.com/app/Users/00003808/user_image.png" width="120px" height="120px" alt=""/>
+        <img src="https://github.com/user-attachments/assets/5474a1fb-63ca-465e-b85e-0689beb35d87" width="120px" height="120px" alt=""/>
         <hr />
         <sub><b>홍유리</b></sub><br />
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/EuiInSeong">
-        <img src="https://aistages-api-public-prod.s3.amazonaws.com/app/Users/00003808/user_image.png" width="120px" height="120px" alt=""/>
+        <img src="https://github.com/user-attachments/assets/6e33239b-6101-4d5d-807a-2a01a7f39cc7" width="120px" height="120px" alt=""/>
         <hr />
         <sub><b>성의인</b></sub><br />
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/jinbong-yeom">
-        <img src="https://aistages-api-public-prod.s3.amazonaws.com/app/Users/00003808/user_image.png" width="120px" height="120px" alt=""/>
+        <img src="https://github.com/user-attachments/assets/73fd05b7-0884-46c8-8b4a-fb787626138c" width="120px" height="120px" alt=""/>
         <hr />
         <sub><b>염진봉</b></sub><br />
       </a>
@@ -68,7 +68,7 @@
 
 프로젝트 전체 일정
 
-- 2025.01.10 (금) 10:00 ~ 2025.02.12 (수) 10:00
+- 2025.01.10 (금) ~ 2025.02.12 (수)
 
 프로젝트 세부 일정
 
