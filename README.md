@@ -198,7 +198,11 @@
 
 #### 추론
 
+- ASR, AAC 평가 시
 `python evaluate_salmonn.py --mode {submission_aac, submission_asr, valid_aac, valid_asr}`
+
+- Memory, Latency 평가 시
+`python evaluate_efficiency_salmonn.py`
 
 <br />
 
@@ -209,9 +213,9 @@
 - Prompt Engieering과 Instruction tuning을 통해 ASR, AAC task의 성능 향상
 - 결과
 
-|model|AAC|ASR|Memory|TTFT|TPOT|
+|Model|AAC|ASR|Memory|TTFT|TPOT|
 |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-|baseline|0.3678|0.0642|9.1761 GB|0.2068 s|0.0445 s|
+|Baseline|0.3678|0.0642|9.1761 GB|0.2068 s|0.0445 s|
 |Our solution|0.3234|0.0676|5.4582 GB|0.3682 s|0.1659 s|
 
 <br />
