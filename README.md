@@ -216,6 +216,9 @@
 |Model|AAC|ASR|Memory|TTFT|TPOT|
 |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 |Baseline|0.3678|0.0642|9.1761 GB|0.2068 s|0.0445 s|
-|Our solution|0.3234|0.0676|5.4582 GB|0.3682 s|0.1659 s|
+|Our solution|0.2757|0.0733|5.3799 GB|0.4557 s|0.1691 s|
+
+(* baseline은 stage 1 30 epoch + stage 2 30 epoch,
+our solution은 stage 1 20 epoch + stage 2 10 epoch)
 
 <br />
