@@ -200,10 +200,10 @@
 #### 추론
 
 - ASR, AAC 평가 시
-`python evaluate_salmonn.py --mode {submission_aac, submission_asr, valid_aac, valid_asr}`
+`python evaluate_salmonn.py --cfg-path salmonn_eval_config.yaml --mode {submission_aac, submission_asr, valid_aac, valid_asr}`
 
 - Memory, Latency 평가 시
-`python evaluate_efficiency_salmonn.py`
+`python evaluate_efficiency_salmonn.py --cfg-path salmonn_eval_config.yaml`
 
 <br />
 
