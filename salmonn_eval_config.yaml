@@ -49,7 +49,7 @@ model:
   prompt_path: "audiolm-trainer/prompts/train_prompt.json"
   test_prompt_path: "audiolm-trainer/prompts/test_prompt.json"
   max_txt_len: 300
-  end_sym: "<|eot_id|>"  #"<|end_of_text|>"
+  end_sym: "<|end_of_text|>" #"<|eot_id|>" 
 
  
 generate:
@@ -59,9 +59,9 @@ generate:
   min_length: 1
   temperature: 1.0
   top_p: 0.9
-  repetition_penalty: 1.0  # 1.7?
+  repetition_penalty: 1.7  
   length_penalty: 1.0
-  end_sym: "<|eot_id|>"  #"<|end_of_text|>"
+  end_sym: "<|end_of_text|>"  #"<|eot_id|>"
 
 datasets:
   prefix: "/data/nota/audio_data"
