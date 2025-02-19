@@ -150,8 +150,6 @@
  ┃ ┣ 📂prompts
  ┃ ┃ ┣ 📜test_prompt.json
  ┃ ┃ ┗ 📜train_prompt.json
- ┃ ┣ 📜CODE_OF_CONDUCT.md
- ┃ ┣ 📜LICENSE
  ┃ ┣ 📜__init__.py
  ┃ ┣ 📜cli_inference.py
  ┃ ┣ 📜config.py
@@ -166,7 +164,9 @@
  ┃ ┗ 📜english.json
  ┣ 📂utils
  ┃ ┗ 📜wav_to_flac.py
+ ┣ 📜CODE_OF_CONDUCT.md
  ┣ 📜EDA.ipynb
+ ┣ 📜LICENSE
  ┣ 📜README.md
  ┣ 📜evaluate_efficiency_salmonn.py
  ┣ 📜evaluate_salmonn.py
