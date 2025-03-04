@@ -7,42 +7,42 @@
   <tr>
     <td align="center">
       <a href="https://github.com/kupulau">
-        <img src="https://aistages-api-public-prod.s3.amazonaws.com/app/Users/00003808/user_image.png" width="120px" height="120px" alt=""/>
+        <img src="https://github.com/user-attachments/assets/d78bb2d1-6469-43e4-9665-eca058f1a2e5" width="120px" height="120px" alt=""/>
         <hr />
         <sub><b>황지은</b></sub><br />
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/asotea">
-        <img src="https://aistages-api-public-prod.s3.amazonaws.com/app/Users/00003808/user_image.png" width="120px" height="120px" alt=""/>
+        <img src="https://github.com/user-attachments/assets/a15d120c-f086-4f3c-8902-25dd260675ba" width="120px" height="120px" alt=""/>
         <hr />
         <sub><b>김태균</b></sub><br />
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/mujjinungae">
-        <img src="https://aistages-api-public-prod.s3.amazonaws.com/app/Users/00003808/user_image.png" width="120px" height="120px" alt=""/>
+        <img src="https://github.com/user-attachments/assets/9098f35a-2002-4f6c-ba66-e3a94310a9f5" width="120px" height="120px" alt=""/>
         <hr />
         <sub><b>이진우</b></sub><br />
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/glasshong">
-        <img src="https://aistages-api-public-prod.s3.amazonaws.com/app/Users/00003808/user_image.png" width="120px" height="120px" alt=""/>
+        <img src="https://github.com/user-attachments/assets/5474a1fb-63ca-465e-b85e-0689beb35d87" width="120px" height="120px" alt=""/>
         <hr />
         <sub><b>홍유리</b></sub><br />
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/EuiInSeong">
-        <img src="https://aistages-api-public-prod.s3.amazonaws.com/app/Users/00003808/user_image.png" width="120px" height="120px" alt=""/>
+        <img src="https://github.com/user-attachments/assets/6e33239b-6101-4d5d-807a-2a01a7f39cc7" width="120px" height="120px" alt=""/>
         <hr />
         <sub><b>성의인</b></sub><br />
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/jinbong-yeom">
-        <img src="https://aistages-api-public-prod.s3.amazonaws.com/app/Users/00003808/user_image.png" width="120px" height="120px" alt=""/>
+        <img src="https://github.com/user-attachments/assets/73fd05b7-0884-46c8-8b4a-fb787626138c" width="120px" height="120px" alt=""/>
         <hr />
         <sub><b>염진봉</b></sub><br />
       </a>
@@ -68,11 +68,12 @@
 
 프로젝트 전체 일정
 
-- 2025.01.10 (금) 10:00 ~ 2025.02.12 (수) 10:00
+- 2025.01.10 (금) ~ 2025.02.12 (수)
 
 프로젝트 세부 일정
 
-![schedule](https://github.com/user-attachments/assets/2d351923-4b2c-4a2b-ab01-5a78a0e96aee)
+![schedule](https://github.com/user-attachments/assets/f02d1aa3-4c84-48e2-bb59-35f82823366e)
+
 
 ## 💻 개발 환경
 
@@ -124,71 +125,106 @@
 
 ```
 📦level4-cv-finalproject-hackathon-cv-03-lv3
-├── 📂 audiolm-evaluator
-│   ├── 📂 audiolm-trainer
-│   ├── 📂 data
-│   ├── 📜 evaluate_efficiency_salmonn.py
-│   ├── 📜 evaluate_salmonn.py
-│   ├── 📜 metrics.py
-│   ├── 📜 README.md
-│   ├── 📜 requirements.txt
-│   ├── 📜 salmonn_eval_config.yaml
-│   ├── 📜 salmonn_utils.py
-│   ├── 📂 submission_results
-│   └── 📜 submission_validator.py
-├── 📜 BEATs_iter3_plus_AS2M_finetuned_on_AS2M_cpt2.pt
-├── 📂 boostcamp-7th-nota-hackathon
-│   ├── 📜 stage1_test.json
-│   ├── 📜 stage1_train.json
-│   ├── 📜 stage2_test.json
-│   ├── 📜 stage2_train.json
-│   ├── 📜 test_aac.json
-│   └── 📜 test_asr.json
-├── 📂 EDA
-│   ├── 📜 EDA2.ipynb
-│   ├── 📜 EDA.ipynb
-│   ├── 📜 QA_fill.ipynb
-│   ├── 📜 stage1_train.csv
-│   ├── 📜 stage2_train.csv
-│   ├── 📜 Taegyun.ipynb
-│   ├── 📜 test_aac.csv
-│   └── 📜 test_asr.csv
-└── 📜 salmonn_3b_nota.pth
+ ┣ 📂audiolm-trainer
+ ┃ ┣ 📂configs
+ ┃ ┃ ┣ 📜train_stage1.yaml
+ ┃ ┃ ┗ 📜train_stage2.yaml
+ ┃ ┣ 📂data
+ ┃ ┃ ┗ 📜example_data.json
+ ┃ ┣ 📂models
+ ┃ ┃ ┣ 📂beats
+ ┃ ┃ ┃ ┣ 📜BEATs.py
+ ┃ ┃ ┃ ┣ 📜Tokenizers.py
+ ┃ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┃ ┣ 📜backbone.py
+ ┃ ┃ ┃ ┣ 📜modules.py
+ ┃ ┃ ┃ ┗ 📜quantizer.py
+ ┃ ┃ ┣ 📜Qformer.py
+ ┃ ┃ ┣ 📜__init__.py
+ ┃ ┃ ┣ 📜modeling_gemma2.py
+ ┃ ┃ ┣ 📜modelling_whisper.py
+ ┃ ┃ ┣ 📜salmonn_gemma2.py
+ ┃ ┃ ┗ 📜utils.py
+ ┃ ┣ 📂other_third-party_licenses
+ ┃ ┃ ┣ 📜LICENSE_vicuna
+ ┃ ┃ ┗ 📜LICENSE_whisper
+ ┃ ┣ 📂prompts
+ ┃ ┃ ┣ 📜test_prompt.json
+ ┃ ┃ ┗ 📜train_prompt.json
+ ┃ ┣ 📜__init__.py
+ ┃ ┣ 📜cli_inference.py
+ ┃ ┣ 📜config.py
+ ┃ ┣ 📜dataset.py
+ ┃ ┣ 📜dist_utils.py
+ ┃ ┣ 📜logger.py
+ ┃ ┣ 📜optims.py
+ ┃ ┣ 📜runner.py
+ ┃ ┣ 📜train.py
+ ┃ ┗ 📜utils.py
+ ┣ 📂data
+ ┃ ┗ 📜english.json
+ ┣ 📂utils
+ ┃ ┗ 📜wav_to_flac.py
+ ┣ 📜CODE_OF_CONDUCT.md
+ ┣ 📜EDA.ipynb
+ ┣ 📜LICENSE
+ ┣ 📜README.md
+ ┣ 📜evaluate_efficiency_salmonn.py
+ ┣ 📜evaluate_salmonn.py
+ ┣ 📜metrics.py
+ ┣ 📜requirements.txt
+ ┣ 📜salmonn_eval_config.yaml
+ ┗ 📜salmonn_utils_gemma2.py
 ```
 
-<br />
-
-## ⚙️ requirements
-
-- torch==2.5.1
-- torchaudio==2.5.1
-- peft==0.3.0
-- soundfile==0.12.1
-- librosa==0.10.2.post1
-- transformers==4.47.1
-- sentencepiece==0.1.97
-- accelerate==1.2.1
-- bitsandbytes==0.45.0
-- gradio==3.23.0
-- wandb==0.19.1
-- omegaconf==2.3.0
-- tensorboardX==2.6.2.2
-- editdistance==0.8.1
-- sacrebleu==1.5.1
-- aac-metrics==0.5.4
-
-`pip install -r requirements.txt`
+- 이 프로젝트는 [nota-github/audiolm-trainer](https://github.com/nota-github/audiolm-trainer), [nota-github/audiolm-evaluator](https://github.com/nota-github/audiolm-evaluator/tree/v1.1) 및 그 기반이 되는 [SALMONN](https://github.com/bytedance/SALMONN) 라이브러리를 기반으로 하고 있습니다. 
 
 <br />
 
 ## ▶️ 실행 방법
 
-#### 학습 및 체크포인트 저장
+#### 설치
 
-`python train.py --cfg-path config.yaml`
+- Step 1. git clone https://github.com/boostcampaitech7/level4-cv-finalproject-hackathon-cv-03-lv3.git
+- Step 2. pip install -r requirements.txt
+- Step 3. BEATs_iter3_plus_AS20K_finetuned_on_AS2M_cpt2.pt 다운로드
+- Step 4. gemma-2-2B-4Bit-GPTQ 모델 파일 다운로드
+
+#### 학습
+
+- stage 1 학습 시
+`python train.py --cfg-path configs/train_stage1.yaml`
+
+- stage 2 학습 시
+`python train.py --cfg-path configs/train_stage2.yaml`
 
 #### 추론
 
-`python evaluate_salmonn.py --mode {submission_aac, submission_asr, valid_aac, valid_asr}`
+- ASR, AAC 평가 시
+`python evaluate_salmonn.py --cfg-path salmonn_eval_config.yaml --mode {submission_aac, submission_asr, valid_aac, valid_asr}`
+
+- Memory, Latency 평가 시
+`python evaluate_efficiency_salmonn.py --cfg-path salmonn_eval_config.yaml`
+
+<br />
+
+## 💡 경량화 solution
+
+#### 결과
+
+|Model|AAC|ASR|Memory|TTFT|TPOT|
+|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+|Baseline|0.2027|0.0634|9.1761 GB|0.2061 sec|0.0450 sec|
+|Our solution|0.3049|0.0642|5.3169 GB|0.3555 sec|0.1072 sec|
+
+- "Gemma-2-2B-4Bit-GPTQ" + "Weight-Lightened Encoder" + "Prompt Engineering"
+- 4 bit로 양자화된 LLM과 경량화된 버전의 Whisper, BEATs encoder를 사용함으로써 메모리를 줄이고 추론 속도를 향상
+- Prompt Engieering과 Instruction tuning을 통해 ASR, AAC task의 성능 향상
+
+<br />
+
+## 랩업 리포트
+- 프로젝트 정리 및 회고
+- https://yurihong.notion.site/wrap-up-report-cv-03?pvs=4
 
 <br />
