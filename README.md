@@ -209,14 +209,21 @@
 
 ## 💡 경량화 solution
 
-- "Gemma-2-2B-4Bit-GPTQ" + "Weight-Lightened Encoder" + "Prompt Engineering"
-- 4 bit로 양자화된 LLM과 경량화된 버전의 Whisper, BEATs encoder를 사용함으로써 메모리를 줄이고 추론 속도를 향상
-- Prompt Engieering과 Instruction tuning을 통해 ASR, AAC task의 성능 향상
-- 결과
+#### 결과
 
 |Model|AAC|ASR|Memory|TTFT|TPOT|
 |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 |Baseline|0.2027|0.0634|9.1761 GB|0.2061 sec|0.0450 sec|
 |Our solution|0.3049|0.0642|5.3169 GB|0.3555 sec|0.1072 sec|
+
+- "Gemma-2-2B-4Bit-GPTQ" + "Weight-Lightened Encoder" + "Prompt Engineering"
+- 4 bit로 양자화된 LLM과 경량화된 버전의 Whisper, BEATs encoder를 사용함으로써 메모리를 줄이고 추론 속도를 향상
+- Prompt Engieering과 Instruction tuning을 통해 ASR, AAC task의 성능 향상
+
+<br />
+
+## 랩업 리포트
+- 프로젝트 정리 및 회고
+- https://yurihong.notion.site/wrap-up-report-cv-03?pvs=4
 
 <br />
